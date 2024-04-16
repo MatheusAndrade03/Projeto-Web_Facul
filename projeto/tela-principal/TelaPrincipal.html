@@ -22,18 +22,21 @@
                 menu
                 </span>
             
-                <ul>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                    <li>
-                        <a href="#">Cadastro</a>
-                
-                    </li>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                </ul>
+                <menu id="itens">
+                    <ul>
+                        <li>
+                            <a href="#">Login</a>
+                        </li>
+                        <li>
+                            <a href="#">Cadastro</a>
+                    
+                        </li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                    </ul>
+                </menu>
+
             
 
         </nav>
@@ -84,14 +87,19 @@
 
     <script>
         function clicou(){
-            if(){
+            
 
-
+                if(itens.style.display == "none"){
+                 itens.style.display="block";
+            }else{
+                itens.style.display="none";
+            }
+           
 
 
             }
 
-        }
+        
 
     </script>
 </body>
