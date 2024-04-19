@@ -1,5 +1,13 @@
 @charset "Utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
 
 
 *{
@@ -10,7 +18,8 @@
 }
 
 header{
-    width: 100vw;
+    width: 100%;
+    
     
     
 }
@@ -26,7 +35,6 @@ header{
  }
  menu{
     width: 100%;
-    height: 100%;
     display: flex;
 
  }
@@ -45,9 +53,14 @@ header{
     
 
  } 
-nav>menu>ul>li{
+
+ 
+
+header a{
     width: 100%;
-    height: 100%;
+    text-decoration: none;
+    color: white;
+    list-style: none;
     border: 1px solid black;
     padding: 10px;
     text-align: center;
@@ -56,21 +69,242 @@ nav>menu>ul>li{
     box-shadow: 1px 1px 1px black;
     margin: 1px;
     cursor: pointer;
- }
- 
-
-header a{
-    
-    text-decoration: none;
-    color: white;
-    list-style: none;
-
 
 }
 header a:hover{
     color:black;
+    background-color: #2405a0f3;
 
 }
-nav>menu>ul>li:hover {
-    background-color: #2405a0f3;
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(13, 27, 158, 0.733);
+}
+
+main{
+    width: 450px;
+    height: 800px;
+    
+    background-color: #ffffff;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+section {
+    
+        
+        
+        
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
+
+
+}
+#logo{
+    background-image: url(../Crescimento-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-shadow: 1px 1px 2px black;
+
+}
+#google{
+    background-image: url(../Google.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  bottom center;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+#microsoft{
+    background-image: url(../Microsoft.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+#Apple{
+    background-image: url(../Apple.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-shadow: 1px 1px 2px black;
+
+
+
+}
+.empresas>p{
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    width: 43%;
+    border: 1px solid black;
+
+
+}
+.empresas>h1{
+        color: white;
+        font-size: 3.5vw;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+
+    #itens> ul >li {
+
+        display:  flex;
+        flex-direction: row;
+        width: 200px;
+        border-radius: 1px;
+
+       
+    }
+    #Burguer{
+        display: none;
+    }
+    #itens{
+        display:block;
+    }
+    
+    nav>menu>ul{
+        
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: left;
+        
+    
+     } 
+     nav{
+        background-color:#1B1240;
+        width: 100%;
+     }
+     
+     main{
+        width: 1600px;
+        height: 800px;
+        
+        background-color: #ffffff;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    
+    section {
+        
+            
+            
+            
+        
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 2.5vw;
+    
+    
+    }
+    #logo{
+        background-image: url(../Crescimento-2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        text-shadow: 1px 1px 2px black;
+    
+    }
+    #google{
+        background-image: url(../Google.webp);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        text-shadow: 1px 1px 2px black;
+    
+    
+    }
+    #microsoft{
+        background-image: url(../Microsoft.webp);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        text-shadow: 1px 1px 2px black;
+    
+    }
+    
+    #Apple{
+        background-image: url(../Apple.webp);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        text-shadow: 1px 1px 2px black;
+    
+    
+    
+    }
+    .empresas>p{
+        background-color: rgba(0, 0, 0, 0.301);
+        color: white;
+        width: 43%;
+        border: 1px solid black;
+    
+    
+    }
+    .empresas>h1{
+            color: white;
+            font-size: 3.5vw;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+    }
+    
+    
+    
+    
+        
+        
+     
 }
