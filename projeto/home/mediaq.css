@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* Tablet*/
+@media screen and (min-width:768px) and (max-width:992px){
+    /*hambuguer*/
+    #burguer{
+        display:none;
+    }
+    menu{
+        display: block;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    /*-----------------------*/
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        
+    }
+    li> a{       
+        display: flex;
+        flex-direction: row;
+        width: 10rem;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+    }
+    #crescimento{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    img{
+        display: block;
+        position: relative;
+        left: -60%;
+        bottom: -50px;
+        width: 250px;
+        height: 150px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 100%;
+    }
+    #crescimento> h2{
+        position: relative;
+        left: -20%;
+    }
+    #crescimento > p {
+        position: relative;
+        top: -20%;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        width: 50%;
+        height: 55%;
+        border: 1px solid black;
+        backdrop-filter: blur(25px);
+        
+        
+    }
+    p{
+        
+        font-size: 14px;
+        padding: 10px;
+        text-indent: 10px;
+        font-family: "Nunito", sans-serif;
+        text-align: justify;
+    }
+    #container{
+        margin-top: 3px;
+        width: 70vw;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 10px 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ol{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(Crescimento-2.jpg);
+        backdrop-filter: blur(25px);
+        border: 2px solid rgb(255, 255, 225 , 0.5);
+        height: 83%;
+        width: 100%;
+    
+    }
+    ol>li{
+        box-shadow: 1px 1px 4px black;
+        color: white;
+        padding: 20px;
+        background-color: #2000968a;
+        height: 16%;
+        width: 100%;
+    }
+    #servicos>ul>li>a{
+        width: 150px;
+        height: 60px;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 10%;
+        margin-bottom: 10px;
+    }
+    
+    #como-funciona{
+        background-color: white;
+        height: 90vh;
+        
+    }
+
+}
+
+    
+/* desktop*/
+@media screen and (min-width:992px)and (max-width:1830px){
+    /*hambuguer*/
+    #burguer{
+        display:none;
+    }
+    menu{
+        display: block;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    /*-----------------------*/
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        
+    }
+    li> a{       
+        display: flex;
+        flex-direction: row;
+        width: 10rem;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+    }
+    #crescimento{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    img{
+        display: block;
+        position: relative;
+        left: -60%;
+        bottom: -50px;
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 100%;
+    }
+    #crescimento> h2{
+        position: relative;
+        left: -20%;
+    }
+    #crescimento > p {
+        position: relative;
+        top: -40%;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        width: 50%;
+        height: 55%;
+        border: 1px solid black;
+        backdrop-filter: blur(25px);
+        
+        
+    }
+    p{
+        
+        font-size: 15px;
+        padding: 10px;
+        text-indent: 10px;
+        font-family: "Nunito", sans-serif;
+        text-align: justify;
+    }
+    #container{
+        margin-top: 3px;
+        width: 70vw;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 10px 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ol{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(Crescimento-2.jpg);
+        backdrop-filter: blur(25px);
+        border: 2px solid rgb(255, 255, 225 , 0.5);
+        height: 83%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    ol>li{
+        box-shadow: 1px 1px 4px black;
+        color: white;
+        padding: 20px;
+        background-color: #2000968a;
+        height: 111px;
+        width: 80%;
+
+        
+    }
+    #servicos>h3{
+        margin-top: 20px;
+        margin-bottom: 15px;
+
+        
+    }
+    #servicos>ul>li>a{
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        border-radius: 10%;
+        margin-bottom: 10px;
+
+        
+    }
+    #como-funciona{
+        background-color: white;
+        height: 90vh;
+        
+    }
+
+}
+/*Tela Grande*/
+@media screen and  (min-width:1830px){
+    /*hambuguer*/
+    #burguer{
+        display:none;
+    }
+    menu{
+        display: block;
+        
+    }
+    menu > ul > li{
+        display: inline-block;
+    }
+    /*-----------------------*/
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        
+    }
+    li> a{       
+        display: flex;
+        flex-direction: row;
+        width: 10rem;
+        border: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+    }
+    #crescimento{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    img{
+        display: block;
+        position: relative;
+        left: -60%;
+        bottom: -50px;
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 100%;
+    }
+    #crescimento> h2{
+        position: relative;
+        left: -40%;
+    }
+    #crescimento > p {
+        position: relative;
+        top: -40%;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        width: 50%;
+        height: 55%;
+        border: 1px solid black;
+        backdrop-filter: blur(25px);
+        
+        
+    }
+    p{
+        
+        font-size: 24px;
+        padding: 10px;
+        text-indent: 10px;
+        font-family: "Nunito", sans-serif;
+        text-align: justify;
+    }
+    #container{
+        margin-top: 3px;
+        width: 70vw;
+        box-shadow: 1px 1px 10px black;
+        border-radius: 10px 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ol{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(Crescimento-2.jpg);
+        backdrop-filter: blur(25px);
+        border: 2px solid rgb(255, 255, 225 , 0.5);
+        height: 83%;
+    
+    }
+    ol>li{
+        box-shadow: 1px 1px 4px black;
+        color: white;
+        padding: 20px;
+        background-color: #2000968a;
+        height: 111px;
+        width: 50%;
+    }
+
+    #servicos>h3{
+        margin-top: 22px;
+    }
+    #servicos>ul>li>a{
+        width: 330px;
+        height: 60px;
+        margin-bottom: 10px;
+        
+    }
+    #como-funciona{
+        background-color: white;
+        height: 90vh;
+        
+    }
+
+}
+

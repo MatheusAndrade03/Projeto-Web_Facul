@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+   header{
+    background-image: linear-gradient(to left, #380C7D, #210096,#32029b);
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+
+
+menu>ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+   
+    text-align: center;
+    height: 40px;
+ 
+
+}
+li > a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+    height: 40px;
+    background-color: #32029b;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    text-shadow: 1px 5px 10px black;
+    box-shadow: 1px 1px 5px black;
+
+}
+a{
+    text-transform: uppercase;
+}
+h1{
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+}
+main{
+    background-color: #4a20b6dc;
+    
+}
+p, ol {
+    color: white;
+}
+#burguer{
+   
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+span:hover{
+    background-image: linear-gradient(to right, #340481, #190070,#5100ff);
+}
+a:hover{
+    background-image: linear-gradient(to left, #340481, #190070,#5100ff);
+    transition-duration: 0.5s;
+}
+
+
+#crescimento{
+    
+    background-image: url(mundoroxo.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right right;
+    height: 50vh;
+    border-radius: 10px;
+    
+   
+}
+h2{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    text-indent: 40px;
+    text-decoration: underline;
+
+}
+#crescimento > p {
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 73%;
+    border: 1px solid black;
+    backdrop-filter: blur(25px);
+    
+}
+img{
+    display: none;
+}
+p{
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 10px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+}
+#como-funciona{
+    background-color: white;
+    
+    
+}
+#como-funciona > h2, p,li{
+    color: black;
+}
+ol{
+    
+    background-image: url(Crescimento-2.jpg);
+    backdrop-filter: blur(25px);
+    border: 2px solid rgb(255, 255, 225 , 0.5);
+
+}
+ol>li{
+    color: white;
+    padding: 20px;
+    background-color: #2000968a;
+}
+h3{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+#servicos{
+    background-image: linear-gradient(to right, #340481, #190070,#5100ff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:1px 3px 10px #190070;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5100ff;
+    
+}
+footer>p{
+    color: white;
+}
