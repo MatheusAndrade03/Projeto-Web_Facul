@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +10,11 @@
 body {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: center;
     min-height: 100vh;
-    background-image: url("Predio2.jpeg");
+    background-image: url(../tela-Cadastro/Predio2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -101,6 +106,7 @@ button {
     height: 40px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -131,7 +137,44 @@ a:hover {
 }
 
 a{
-    color:white;
+    color:rgb(255, 255, 255);
     text-decoration: none;
+    
+}
+
+#lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 225, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+#lista h2{
+
+        color: white;
+        font-size: 2rem;
+
+}
+
+#cadastroLista li{
+        width: 99%;
+        color: rgb(0, 0, 0);
+        margin: 14px;
+       border: 3px solid black;
+        list-style: none;
+        padding: 10px;
+        background-color: aliceblue;
+        border-radius: 10px;
+
 }
 
