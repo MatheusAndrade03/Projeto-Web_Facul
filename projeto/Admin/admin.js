@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const pesquisa = document.getElementById('pesquisa').value.toLowerCase();
         const cadastros = JSON.parse(localStorage.getItem('cadastros')) || [];
         const lista = document.getElementById('cadastroLista');
-        lista.innerHTML = '';
+        lista.innerHTML = "";
         cadastros.forEach(cadastro => {
             if (cadastro.nome.toLowerCase().includes(pesquisa) || cadastro.email.toLowerCase().includes(pesquisa)) {
                 adicionaCadastroNaLista(cadastro);
